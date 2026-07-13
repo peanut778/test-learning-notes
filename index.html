@@ -1,7 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>我的学习笔记</title>
+  <!-- 引入 Docsify 的样式 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
 <body>
-    <h1>你好，这是我的第一个网站！</h1>
-    <p>我终于搞定 GitHub Pages 了！</p>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'peanut778的学习笔记', // 左上角显示的名字
+      repo: '', // 右上角的GitHub图标
+      loadSidebar: true, // 开启侧边栏
+      subMaxLevel: 2 // 侧边栏显示层级
+    }
+  </script>
+  <!-- 引入 Docsify 的核心脚本 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 </body>
 </html>
