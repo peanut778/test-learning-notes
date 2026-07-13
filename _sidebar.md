@@ -1,1 +1,2 @@
 - [首页](README.md)
+- [软件测试基础](test/README.md)  <-- 假设你把笔记放在 test 文件夹里
